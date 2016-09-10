@@ -1,6 +1,3 @@
-
-
-
   var game = new Chess();
 
   // update board for castling, en passant and pawn promotion
