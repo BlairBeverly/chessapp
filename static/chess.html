@@ -5,9 +5,23 @@
   <link rel="stylesheet" href="chessboardjs-0.3.0/css/chessboard-0.3.0.css" />
 </head>
 <body>
-  <p>Player 2</p>
-  <div id="board" style="width: 500px"></div>
-  <p>Player 1</p>
+
+  <div id="board" style="
+      width: 500px; 
+      display:inline-block; 
+      vertical-align:top;
+      margin-top:40px;">    
+  </div>
+
+  <div id="players" style="
+      width:200px; 
+      height:486px; 
+      margin-left:20px;
+      border:2px solid black; 
+      display:inline-block; 
+      margin-top:40px;
+      padding:5px;"><p>Available Players</p>
+  </div>
   <script 
     src="https://code.jquery.com/jquery-1.12.4.min.js" 
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
@@ -16,6 +30,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
   <script src="chessboardjs-0.3.0/js/chessboard-0.3.0.js"></script>
   <script src="board.js"></script>
-  <script src="node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
 </body>
 </html>
